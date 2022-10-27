@@ -8,19 +8,19 @@ class Vehicle:
         self.max_speed = max_speed
         self.mileage = mileage,
 
-    def increase_speed(self):
-        print(f'Speed was increased by {self.increase_speed()} km')
+    def increase_speed(self, current)
+        print(f'Speed was increased by {current} km')
 
     def break_speed(self):
-        print(f'Break spead is {self.break_speed()}')
+        print('Your speed is break')
 
     def mileage_info(self):
-        print(f'You drove {self.mileage_info()} miles')
+        print('You drove {self.mileage} miles')
 
 class Bus(Vehicle):
 
-    def seating_capacity(self):
-        print(f'Seating capacity is {self.seating_capacity()}')
+    def seating_capacity(self, capacity):
+        print(f'Seating capacity is {capacity}')
 
 print(issubclass(Bus, Vehicle))
 
@@ -36,17 +36,17 @@ class School:
         self.get_school_id = get_school_id
         self.number_of_students = number_of_students
 
-    def school_adress(self):
-        print(f'You chose school adress is {self.school_adress()}')
+    def school_adress(self,adress):
+        print(f'You chose school adress is {adress}')
 
-    def main_subject(self):
-        print(f'You chose main subject is {self.main_subject()}')
+    def main_subject(self,subject):
+        print(f'You chose main subject is {subject}')
 
 #6*. Створіть новий клас SchoolBus, який успадкує всі методи від School і Bus і матиме власний - bus_school_color
 
 class SchoolBus(Vehicle, School):
-    def bus_school_collor(self):
-        print(f'Bus school color is {self.bus_school_collor()}')
+    def bus_school_collor(self, color):
+        print(f'Bus school color is {color}')
 
 #7. Поліморфізм: Створіть два класи: Bear, Wolf. Обидва вони повинні мати метод eat. Створіть два екземпляри: від Ведмідь і від Вовк,
 #створіть із нього кортеж і використовуючи спільну змінну, викличте метод eat.
