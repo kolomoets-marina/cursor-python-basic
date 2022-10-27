@@ -8,7 +8,7 @@ class Vehicle:
         self.max_speed = max_speed
         self.mileage = mileage,
 
-    def increase_speed(self, current)
+    def increase_speed(self, current):
         print(f'Speed was increased by {current} km')
 
     def break_speed(self):
