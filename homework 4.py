@@ -15,7 +15,7 @@ class Vehicle:
         print('Your speed is break')
 
     def mileage_info(self):
-        print('You drove {self.mileage} miles')
+        print(f'You drove {self.mileage} miles')
 
 class Bus(Vehicle):
 
